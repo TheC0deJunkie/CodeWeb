@@ -6,8 +6,22 @@
 nav {
     display: flex;
     flex-direction: row;
+    background: rgba(80, 80, 80, 0.5);
     width: 100%;
+    padding: 10px;
 
+}
+
+nav>ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav>ul>li {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 ul {
@@ -18,10 +32,12 @@ ul {
 
 .left-menu {
     float: left;
+    width: 100%;
 }
 
 .right-menu {
     float: right;
+    padding-right: 20px;
 }
 
 body {
@@ -30,11 +46,19 @@ body {
     font-family: roboto;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {
 
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
-    height: 60px;
+    height: 120px;
+    margin: auto;
+    text-align: center;
+    
 }
